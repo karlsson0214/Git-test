@@ -6,6 +6,7 @@ List<String> inköpslista = new List<String>();
 inköpslista.Add("mjölk");
 inköpslista.Add("fil");
 inköpslista.Add("ost");
+inköpslista.Add("bröd");
 
 foreach (String vara in inköpslista)
 {
