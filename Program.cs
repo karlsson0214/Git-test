@@ -1,2 +1,14 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
+
+List<String> inköpslista = new List<String>();
+
+inköpslista.Add("mjölk");
+inköpslista.Add("fil");
+inköpslista.Add("ost");
+
+foreach (String vara in inköpslista)
+{
+    Console.WriteLine(vara);
+}
+
