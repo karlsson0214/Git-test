@@ -8,8 +8,10 @@ inköpslista.Add("fil");
 inköpslista.Add("ost");
 inköpslista.Add("bröd");
 
+// skriv ut inköpslista
 foreach (String vara in inköpslista)
 {
     Console.WriteLine(vara);
 }
+
 
